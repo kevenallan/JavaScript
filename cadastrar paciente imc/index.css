@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+header div{
+    background-color: black;
+    color:white;
+}
+h1{
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+hr{
+    margin-bottom:2%
+}
+p{
+    margin-left:15%;
+    font-size: 30px;
+}
+main{
+    margin-left:15%;
+    margin-right:15%;
+}
+label{
+    font-size: 17px;
+}
+input{
+    font-size: 12px;
+    height: 30px;
+}
+#nome{
+    width:100%;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.pag{
+    display:flex;
+    margin-top:1%;
+}
+#adicionar{
+    height: 45px;
+    width: 200px;
+    font-size: 17px;
+    background-color:rgb(51, 120, 224);
+    color:white;
+    margin-top:2%;
+}
+
+.filtro_paciente{
+    display:flex;
+    flex-direction: column;
+}
+#filtrar_nome{
+    width:170px;
+    margin-bottom:1%;
+}
+
+#colunas{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#coluna{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:200px;
+    height:35px;
+    border:solid 1px;
+    background-color: rgb(221, 218, 218);
+}
+#ocorrencia{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    width:200px;
+    height:35px;
+    border:solid 1px;
+    background-color: white;
+}
+#linha{
+   display:flex;
+
+}
+
+
+
+
+
+
+
+/* 
+        
+        <table>
+            <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Peso(kg)</th>
+                <th>Altura(m)</th>
+                <th>Gordura Corporal(%)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Paulo</td>
+                <td>100</td>
+                <td>2.00</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+        </table> */
